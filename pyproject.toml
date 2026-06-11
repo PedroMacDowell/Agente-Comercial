@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agente-ia"
+version = "0.1.0"
+description = "Agente local para buscar arquivos, gerar propostas e automatizar email e WhatsApp."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "playwright>=1.46.0",
+  "pypdf>=5.0.0",
+  "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+agente-ia = "agente_ia.cli:main"
+agente-ia-gui = "agente_ia.gui:main"
+
+[tool.setuptools]
+packages = ["agente_ia"]

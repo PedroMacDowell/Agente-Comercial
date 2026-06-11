@@ -1,0 +1,15 @@
+__pycache__/
+.venv/
+.env
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.spec
+*.egg-info/
+*.pyc
+agent-output/
+browser-profile/
+_tmp_empty/
