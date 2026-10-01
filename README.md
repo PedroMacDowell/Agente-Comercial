@@ -113,7 +113,7 @@ Abrir a interface grafica:
 python -m agente_ia.cli gui
 ```
 
-Se preferir, execute o arquivo [abrir_agente_gui.bat](c:/Users/FUTUREMEDIA/Desktop/AGENTE-IA/abrir_agente_gui.bat) com duplo clique.
+Se preferir, execute o arquivo [abrir_agente_gui.bat](abrir_agente_gui.bat) com duplo clique.
 
 Validar o fluxo sem enviar nada:
 
@@ -171,10 +171,10 @@ Se o Ollama nao estiver respondendo, o app cai no modo de fallback e ainda gera 
    ```powershell
    pip install -r requirements-build.txt
    ```
-2. Rode o arquivo [build_exe.bat](c:/Users/FUTUREMEDIA/Desktop/AGENTE-IA/build_exe.bat).
+2. Rode o arquivo [build_exe.bat](build_exe.bat).
 3. O executavel vai sair em `dist\AgenteIA.exe`.
 
-Se quiser abrir sem build, o atalho [abrir_agente_gui.bat](c:/Users/FUTUREMEDIA/Desktop/AGENTE-IA/abrir_agente_gui.bat) continua funcionando.
+Se quiser abrir sem build, o atalho [abrir_agente_gui.bat](abrir_agente_gui.bat) continua funcionando.
 
 ## Observacoes importantes
 
